@@ -1,5 +1,6 @@
 site:
-  name: AstroWind
+  name: PokemonApp
+  icon: tabler:pokeball
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false

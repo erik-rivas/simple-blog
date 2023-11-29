@@ -1,7 +1,9 @@
 ---
 import { SITE } from '~/utils/config';
+import { Icon } from 'astro-icon';
+
 ---
 
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
-  🚀 {SITE?.name}
+  <Icon name={SITE?.icon} class="w-6 h-6" /> {SITE?.name}
 </span>
